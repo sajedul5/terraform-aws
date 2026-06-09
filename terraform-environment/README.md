@@ -109,13 +109,16 @@ terraform destroy
 ## Create workspaces
 
 ```
+# create dev 
 terraform workspace new dev
+# create stage
 terraform workspace new stage
 
+# select workspace 
 terraform workspace select dev
 terraform workspace select stage
 
-
+# show workspace
 terraform workspace show
 ```
 
