@@ -109,6 +109,8 @@ terraform destroy
 ## Create workspaces
 
 ```
+# workspace list
+terraform workspace list
 # create dev 
 terraform workspace new dev
 # create stage
