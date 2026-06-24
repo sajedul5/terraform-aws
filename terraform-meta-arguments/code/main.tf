@@ -83,29 +83,29 @@ resource "aws_s3_bucket" "dependent" {
 # lifecycle controls how Terraform handles resource creation/destruction
 # Common use cases: prevent_destroy, create_before_destroy, ignore_changes
 
-# resource "aws_s3_bucket" "lifecycle_example" {
-#   bucket = "tf-day08-lifecycle-${var.environment}-20251017"
+resource "aws_s3_bucket" "lifecycle_example" {
+  bucket = "tf-day08-lifecycle-${var.environment}-2025101712345"
 
-#   # Lifecycle rules
-#   lifecycle {
-#     # Prevent accidental deletion
-#     prevent_destroy = false # Set to true in production to protect critical resources
+  # Lifecycle rules
+  lifecycle {
+    # Prevent accidental deletion
+    prevent_destroy = false # Set to true in production to protect critical resources
 
-#     # Create new resource before destroying old one
-#     create_before_destroy = true
+    # Create new resource before destroying old one
+    create_before_destroy = false # Set to true if you want to ensure zero downtime during updates
 
-#     # Ignore changes to specific attributes
-#     ignore_changes = [
-#       tags["CreatedDate"], # Ignore changes to this specific tag
-#     ]
-#   }
+    # Ignore changes to specific attributes
+    ignore_changes = [
+      tags["CreatedDate"], # Ignore changes to this specific tag
+    ]
+  }
 
-#   tags = {
-#     Name        = "Lifecycle Example"
-#     Environment = var.environment
-#     ManagedBy   = "terraform"
-#     CreatedDate = "2025-10-17"
-#   }
-# }
+  tags = {
+    Name        = "Lifecycle Example"
+    Environment = var.environment
+    ManagedBy   = "terraform"
+    CreatedDate = "2025-10-17"
+  }
+}
 
 
