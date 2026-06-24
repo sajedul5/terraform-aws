@@ -56,19 +56,19 @@ output "dependent_bucket_id" {
 }
 
 # lifecycle example output
-# output "lifecycle_bucket_id" {
-#   description = "Lifecycle example bucket ID"
-#   value       = aws_s3_bucket.lifecycle_example.id
-# }
+output "lifecycle_bucket_id" {
+  description = "Lifecycle example bucket ID"
+  value       = aws_s3_bucket.lifecycle_example.id
+}
 
 # -----------------------------------------------------------------------------
 # Count total resources created
 # -----------------------------------------------------------------------------
 
-# output "total_s3_buckets_created" {
-#   description = "Total number of S3 buckets created"
-#   value       = length(var.s3_bucket_names) + length(var.s3_bucket_set) + 3 # +3 for primary, dependent, lifecycle
-# }
+output "total_s3_buckets_created" {
+  description = "Total number of S3 buckets created"
+  value       = length(var.s3_bucket_names) + length(var.s3_bucket_set) + 3 # +3 for primary, dependent, lifecycle
+}
 
 # -----------------------------------------------------------------------------
 # Outputs for IAM Users (for_each with map)
