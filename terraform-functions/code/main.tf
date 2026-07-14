@@ -2,7 +2,6 @@
 # ASSIGNMENT 1: Project Naming Convention
 # ==============================================================================
 # Functions: lower(), replace()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -33,7 +32,6 @@ resource "aws_resourcegroups_group" "project" {
 # ASSIGNMENT 2: Resource Tagging
 # ==============================================================================
 # Function: merge()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -78,7 +76,6 @@ resource "aws_s3_bucket" "storage" {
 # ASSIGNMENT 4: Security Group Port Configuration
 # ==============================================================================
 # Functions: split(), join(), for expression
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -138,7 +135,6 @@ resource "aws_security_group" "app_sg" {
 # ASSIGNMENT 5: Environment Configuration Lookup
 # ==============================================================================
 # Function: lookup()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -172,7 +168,6 @@ resource "aws_instance" "app_server" {
 # ==============================================================================
 # Functions: length(), contains(), can(), regex()
 # Note: Validation is already in variables.tf
-# Uncomment to test
 # ==============================================================================
 
 # This assignment demonstrates validation in variables.tf
@@ -206,7 +201,6 @@ resource "aws_instance" "validated_instance" {
 # ==============================================================================
 # Functions: endswith(), sensitive attribute
 # Note: Validation is in variables.tf
-# Uncomment to test
 # ==============================================================================
 
 # # Backup configuration with validation and sensitive data handling
@@ -222,7 +216,6 @@ locals {
 # ASSIGNMENT 8: File Path Processing
 # ==============================================================================
 # Functions: fileexists(), dirname(), file()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -246,7 +239,6 @@ locals {
 # ASSIGNMENT 9: Resource Location Management
 # ==============================================================================
 # Functions: toset(), concat()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -259,7 +251,6 @@ locals {
 # ASSIGNMENT 10: Cost Calculation
 # ==============================================================================
 # Functions: abs(), max(), for expression
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -280,7 +271,6 @@ locals {
 # ASSIGNMENT 11: Timestamp Management
 # ==============================================================================
 # Functions: timestamp(), formatdate()
-# Uncomment to test
 # ==============================================================================
 
 locals {
@@ -311,7 +301,6 @@ resource "aws_s3_bucket" "timestamped_bucket" {
 # ASSIGNMENT 12: File Content Handling
 # ==============================================================================
 # Functions: file(), jsondecode(), sensitive()
-# Uncomment to test (requires config.json file)
 # ==============================================================================
 
 # # Note: Create a config.json file first to test this
