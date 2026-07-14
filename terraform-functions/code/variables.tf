@@ -35,7 +35,7 @@ variable "environment_tags" {
 variable "bucket_name" {
   type        = string
   description = "S3 bucket name (must be globally unique)"
-  default     = "ProjectAlphaStorageBucket with CAPS and spaces!!!"
+  default     = "ProjectAlphaStorageBucket222222222222222222222222 with CAPS and spaces!!!"
 }
 
 # ==============================================================================
