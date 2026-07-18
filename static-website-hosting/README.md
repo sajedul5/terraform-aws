@@ -31,7 +31,11 @@ Internet → CloudFront Distribution → S3 Bucket (Static Website)
 
 ### 1. Initialize Terraform
 ```bash
-cd lessons/day14
+git clone https://github.com/sajedul5/terraform-aws.git
+cd static-website-hosting 
+
+# change this to your S3 bucket name backend.tf file
+
 terraform init
 ```
 
@@ -84,7 +88,7 @@ terraform destroy
 ```
 Type `yes` when prompted to confirm destruction.
 
-## 📚 Learning Objectives
+## Learning Objectives
 
 After completing this project, you should understand:
 - ✅ How to configure S3 for static website hosting
@@ -100,7 +104,7 @@ After completing this project, you should understand:
 - [CloudFront Documentation](https://docs.aws.amazon.com/cloudfront/)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
-## 🎉 Next Steps
+##  Next Steps
 
 Consider extending this project with:
 - Custom domain name with Route 53
