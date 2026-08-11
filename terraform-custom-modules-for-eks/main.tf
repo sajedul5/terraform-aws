@@ -34,7 +34,7 @@ module "vpc" {
   tags = {
     Environment = var.environment
     Terraform   = "true"
-    Project     = "EKS-Day20"
+    Project     = "EKS-RnD-Project"
   }
 }
 
@@ -47,7 +47,7 @@ module "iam" {
   tags = {
     Environment = var.environment
     Terraform   = "true"
-    Project     = "EKS-Day20"
+    Project     = "EKS-RnD-Project"
   }
 }
 
@@ -115,7 +115,7 @@ module "eks" {
   tags = {
     Environment = var.environment
     Terraform   = "true"
-    Project     = "EKS-Day20"
+    Project     = "EKS-RnD-Project"
   }
 
   depends_on = [module.iam]
@@ -150,6 +150,6 @@ module "secrets_manager" {
   tags = {
     Environment = var.environment
     Terraform   = "true"
-    Project     = "EKS-Day20"
+    Project     = "EKS-RnD-Project"
   }
 }
