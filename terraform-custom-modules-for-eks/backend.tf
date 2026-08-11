@@ -1,7 +1,7 @@
 terraform {
 
   backend "s3" {
-    bucket       = "dev-ops-terraform-state-files"
+    bucket       = "dev-ops-terraform-state-files" # Replace with your S3 bucket name
     key          = "terraform-custom-modules-for-eks.tfstate"
     region       = "us-east-1"
     use_lockfile = "true"
