@@ -61,6 +61,11 @@ Creates secrets management resources:
 
 ## Deployment
 
+```bash
+git clone https://github.com/sajedul5/terraform-aws.git
+cd terraform-custom-modules-for-eks
+```
+
 ### 1. Initialize Terraform
 ```bash
 terraform init
