@@ -9,13 +9,13 @@ variable "aws_region" {
 variable "cluster_name" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "day20-eks"
+  default     = "eks-cluster-rnd"
 }
 
 variable "kubernetes_version" {
   description = "Kubernetes version to use for the EKS cluster"
   type        = string
-  default     = "1.31"
+  default     = "1.35"
 }
 
 variable "environment" {

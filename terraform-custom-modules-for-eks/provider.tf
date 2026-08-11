@@ -18,7 +18,7 @@ provider "aws" {
   default_tags {
     tags = {
       ManagedBy = "Terraform"
-      Project   = "EKS-Cluster"
+      Project   = "EKS-RnD-Project"
     }
   }
 }
