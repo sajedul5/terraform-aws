@@ -1,4 +1,4 @@
-# Day 22 - RDS Database Mini Project
+# RDS Database Mini Project
 # Variables Configuration
 
 # General Variables
