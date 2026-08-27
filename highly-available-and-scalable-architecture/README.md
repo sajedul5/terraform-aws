@@ -34,7 +34,7 @@ Internet → ALB (Public) → EC2 Instances (Private) → NAT Gateways → Inter
 ## 📁 Code Structure
 
 ```
-code/
+├──backend.tf
 ├── main.tf              # Provider & Terraform configuration
 ├── variables.tf         # Input variables
 ├── outputs.tf           # Output values (ALB DNS, NAT IPs, etc.)
@@ -58,7 +58,8 @@ code/
 ### Deploy
 
 ```bash
-cd code/
+git clone https://github.com/sajedul5/terraform-aws.git
+cd highly-available-and-scalable-architecture
 terraform init
 terraform plan
 terraform apply -auto-approve
