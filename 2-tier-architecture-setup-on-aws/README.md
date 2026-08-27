@@ -75,6 +75,11 @@ day22/
 ### 1. Initialize Terraform
 
 ```bash
+ git clone https://github.com/sajedul5/terraform-aws.git
+ cd 2-tier-architecture-setup-on-aws
+```
+
+```bash
 terraform init
 ```
 
