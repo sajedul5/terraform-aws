@@ -2,7 +2,7 @@ terraform {
 
   backend "s3" {
     bucket       = "s3-terraform-state-files-backend"
-    key          = "two-tier-architecture-rds-demo.tfstate"
+    key          = "highly-available-and-scalable-architecture.tfstate"
     region       = "us-east-2"
     use_lockfile = "true"
     encrypt      = true
