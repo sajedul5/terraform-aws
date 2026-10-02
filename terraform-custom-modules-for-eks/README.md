@@ -145,7 +145,7 @@ Enable secrets in `terraform.tfvars`:
 ```hcl
 enable_db_secret = true
 db_username      = "admin"
-db_password      = "SecurePass123!"
+db_password      = "<your-db-password>"
 db_host          = "db.example.com"
 db_name          = "myapp"
 ```
@@ -207,3 +207,10 @@ terraform destroy
 ✅ Automated tagging
 
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

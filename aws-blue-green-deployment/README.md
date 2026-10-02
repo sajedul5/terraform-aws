@@ -266,3 +266,10 @@ terraform destroy
 - S3 bucket (if empty)
 - All associated resources
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

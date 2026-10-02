@@ -113,3 +113,10 @@ terraform destroy
 - Ensure S3 bucket names are unique and follow naming conventions
 - Review AWS CloudTrail for API call logs if needed
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

@@ -128,7 +128,7 @@ aws_region   = "us-west-2"
 # Database settings
 db_name     = "myappdb"
 db_username = "admin"
-db_password = "YourSecurePassword123!"  # Use a strong password!
+db_password = "<your-db-password>"  # Never commit real passwords
 ```
 
 ## Modules
@@ -176,3 +176,10 @@ Deploys an Ubuntu EC2 instance with:
 | `rds_endpoint` | RDS instance endpoint |
 | `rds_port` | RDS instance port |
 | `database_name` | Name of the database |
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

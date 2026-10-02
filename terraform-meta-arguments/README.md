@@ -243,3 +243,10 @@ resource "aws_s3_bucket" "example" {
 ### Issue: "Resource not found when using count"
 **Solution:** Make sure you're using the correct index. Remember that count uses numeric indices starting from 0.
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

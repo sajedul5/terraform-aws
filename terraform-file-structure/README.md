@@ -136,3 +136,10 @@ terraform apply
 5. **Overly complex structure** - Simple is often better
 
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

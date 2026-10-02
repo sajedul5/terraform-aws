@@ -60,7 +60,6 @@ variable "db_username" {
 variable "db_password" {
   description = "Database administrator password"
   type        = string
-  default     = "ChangeMe123!"
   sensitive   = true
 }
 

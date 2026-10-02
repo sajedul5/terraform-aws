@@ -58,3 +58,10 @@ terraform -install-autocomplete
 alias tf=terraform
 terraform -version
 ```
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

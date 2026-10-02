@@ -1,9 +1,9 @@
 terraform {
 
   backend "s3" {
-    bucket       = "dev-ops-terraform-state-files" # change this to your S3 bucket name
+    bucket       = "s3-terraform-state-files-backend" # change this to your S3 bucket name
     key          = "static-website-hosting.tfstate"
-    region       = "us-east-1"
+    region       = "us-east-2"
     use_lockfile = "true"
     encrypt      = true
   }

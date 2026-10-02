@@ -32,3 +32,10 @@
 6. **Use type conversion functions** when needed
 7. **Document type requirements** in descriptions
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

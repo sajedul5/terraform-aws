@@ -133,3 +133,10 @@ terraform workspace show
 - **Precedence**: Command line > tfvars > environment vars > defaults
 
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

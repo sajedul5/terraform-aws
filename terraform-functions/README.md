@@ -168,3 +168,10 @@ Read JSON config and store in Secrets Manager
 - [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [DEMO_GUIDE.md](DEMO_GUIDE.md) - Complete demo instructions
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

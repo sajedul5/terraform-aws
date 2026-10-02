@@ -76,9 +76,9 @@ Create an S3 bucket with versioning and encryption enabled to store Terraform st
 ```hcl
 terraform {
   backend "s3" {
-    bucket       = "your-terraform-state-bucket"
+    bucket       = "s3-terraform-state-files-backend"
     key          = "dev/terraform.tfstate"
-    region       = "us-east-1"
+    region       = "us-east-2"
     use_lockfile = true
     encrypt      = true
   }
@@ -166,3 +166,10 @@ terraform state pull
 - **Terraform Version**: Requires Terraform 1.10+ for S3 native locking; 1.11+ recommended for stable GA release
 
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

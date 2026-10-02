@@ -141,3 +141,10 @@ resource_list[*].attribute_name
 - [Terraform For Expressions](https://www.terraform.io/language/expressions/for)
 
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

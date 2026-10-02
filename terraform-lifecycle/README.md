@@ -289,3 +289,10 @@ Use replace_triggered_by for configuration-driven deployments.
 - Over-using ignore_changes and missing important updates
 - Not testing lifecycle rules before applying to production
 
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.

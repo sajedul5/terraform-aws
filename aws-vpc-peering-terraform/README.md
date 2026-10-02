@@ -231,3 +231,10 @@ Type `yes` when prompted. This will remove:
 - [AWS VPC Peering Documentation](https://docs.aws.amazon.com/vpc/latest/peering/)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [VPC Peering Best Practices](https://docs.aws.amazon.com/vpc/latest/peering/vpc-peering-basics.html)
+
+
+---
+
+## Copyright
+
+© 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.
