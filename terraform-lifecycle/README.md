@@ -2,7 +2,7 @@
 
 ## 🎯 Learning Objectives
 
-By the end of this lesson, you will:
+By the end of this project, you will:
 1. Understand all Terraform lifecycle meta-arguments
 2. Know when to use each lifecycle rule
 3. Be able to protect production resources

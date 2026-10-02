@@ -104,7 +104,7 @@ def home():
     return f"""
     <html>
     <head>
-        <title>Day 22 - RDS Demo App</title>
+        <title>2-Tier RDS Demo App</title>
         <style>
             body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f2f5; color: #333; }}
             .container {{ max-width: 800px; margin: 40px auto; padding: 20px; }}

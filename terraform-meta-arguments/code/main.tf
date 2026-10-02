@@ -53,7 +53,7 @@ resource "aws_s3_bucket" "example_foreach" {
 
 # First, create a bucket that will be used as a dependency
 resource "aws_s3_bucket" "primary" {
-  bucket = "tf-day08-primary-${var.environment}-20251017420"
+  bucket = "tf-meta-args-primary-${var.environment}-20251017420"
 
   tags = {
     Name        = "Primary Bucket"
@@ -64,7 +64,7 @@ resource "aws_s3_bucket" "primary" {
 
 # This bucket explicitly depends on the primary bucket
 resource "aws_s3_bucket" "dependent" {
-  bucket = "tf-day08-dependent-${var.environment}-20251017421"
+  bucket = "tf-meta-args-dependent-${var.environment}-20251017421"
 
   # Explicit dependency - this will be created AFTER primary bucket
   depends_on = [aws_s3_bucket.primary]
@@ -84,7 +84,7 @@ resource "aws_s3_bucket" "dependent" {
 # Common use cases: prevent_destroy, create_before_destroy, ignore_changes
 
 resource "aws_s3_bucket" "lifecycle_example" {
-  bucket = "tf-day08-lifecycle-${var.environment}-2025101712345"
+  bucket = "tf-meta-args-lifecycle-${var.environment}-2025101712345"
 
   # Lifecycle rules
   lifecycle {

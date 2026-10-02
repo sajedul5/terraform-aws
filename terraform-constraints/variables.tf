@@ -47,7 +47,7 @@ variable "instance_tags" {
   type = map(string)
   default = {
     Environment = "dev"
-    Project     = "terraform-course"
+    Project     = "terraform-aws"
     Owner       = "devops-team"
   }
 }

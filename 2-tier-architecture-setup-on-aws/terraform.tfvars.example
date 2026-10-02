@@ -2,7 +2,7 @@
 # Copy this file to terraform.tfvars and update values as needed
 
 # General Settings
-project_name = "day22-rds-demo"
+project_name = "two-tier-rds-demo"
 environment  = "dev"
 aws_region   = "us-east-1"
 

@@ -1,11 +1,11 @@
-# RDS Database Mini Project
+# 2-Tier Architecture (EC2 + RDS)
 # Variables Configuration
 
 # General Variables
 variable "project_name" {
   description = "Name of the project - used for tagging resources"
   type        = string
-  default     = "day22-rds-demo"
+  default     = "two-tier-rds-demo"
 }
 
 variable "environment" {

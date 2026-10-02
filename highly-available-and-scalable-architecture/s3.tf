@@ -3,7 +3,7 @@ resource "random_id" "bucket_suffix" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "terraform-day15-prod-bucket-${random_id.bucket_suffix.hex}"
+  bucket = "terraform-ha-prod-bucket-${random_id.bucket_suffix.hex}"
 
   tags = {
     Name        = "MyBucket"

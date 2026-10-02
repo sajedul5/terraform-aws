@@ -1,4 +1,4 @@
-# Day 21: AWS Policy and Governance (Mini Project 7)
+# AWS Policy and Governance
 
 This project demonstrates how to implement **AWS Policy Creation** and **Governance Setup** using Terraform. It showcases best practices for cloud security, compliance monitoring, and automated policy enforcement.
 
@@ -13,7 +13,7 @@ This project demonstrates how to implement **AWS Policy Creation** and **Governa
 ## 📁 Project Structure
 
 ```
-day21/
+terraform-aws-policy&governance/
 ├── provider.tf       # AWS provider configuration
 ├── variables.tf      # Input variables
 ├── main.tf          # S3 bucket and shared resources
@@ -159,20 +159,14 @@ terraform destroy
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [AWS Config Rules](https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html)
 
-## 🎓 Teaching Notes
+## 🎓 Use Cases
 
-This demo is ideal for:
+This project is ideal for:
 - Understanding IAM policy structure and conditions
 - Learning AWS Config for compliance automation
 - Implementing S3 security best practices
 - Demonstrating infrastructure as code for governance
 - Showing real-world enterprise security patterns
-
----
-
-**Project**: Terraform Full Course AWS  
-**Lesson**: Day 21 - Policy and Governance  
-**Last Updated**: November 2025
 
 
 ---

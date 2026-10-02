@@ -1,4 +1,4 @@
-# RDS Database (Mini Project)
+# 2-Tier Architecture on AWS (EC2 + RDS)
 
 ## Overview
 
@@ -37,7 +37,7 @@ This project demonstrates deploying a complete web application stack on AWS usin
 ## Project Structure
 
 ```
-day22/
+2-tier-architecture-setup-on-aws/
 ├── main.tf                          # Root module - orchestrates all modules
 ├── variables.tf                     # Root variables
 ├── outputs.tf                       # Root outputs

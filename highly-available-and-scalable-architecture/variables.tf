@@ -79,5 +79,5 @@ variable "min_size" {
 variable "s3_bucket_name" {
   description = "The name of the S3 bucket (prefix)"
   type        = string
-  default     = "terraform-day15-prod-bucket"
+  default     = "terraform-ha-prod-bucket"
 }

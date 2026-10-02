@@ -9,7 +9,7 @@ Meta-arguments are special arguments that can be used with **any resource type**
 5. **provider** - Select a non-default provider configuration
 6. **provisioner** - Execute scripts on resource creation/destruction (not recommended)
 
-**This lesson includes simple examples for all meta-arguments!**
+**This project includes simple examples for all meta-arguments!**
 
 ### COUNT Meta-Argument
 
@@ -108,7 +108,7 @@ resource "aws_s3_bucket" "example" {
 
 ### Steps
 
-1. **Clone and navigate to the lesson folder:**
+1. **Clone and navigate to the project folder:**
    ```bash
    cd terraform-aws/terraform-meta-arguments
    ```
@@ -200,7 +200,7 @@ resource "aws_s3_bucket" "example" {
 - Create the S3 bucket manually before running `terraform init`
 
 ### Costs
-- Most resources in this lesson are free tier eligible
+- Most resources in this project are free tier eligible
 - S3 buckets incur minimal storage costs
 - IAM users are free
 - **Always run `terraform destroy` when done!**
