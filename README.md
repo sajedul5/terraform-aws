@@ -132,3 +132,7 @@ Issues and pull requests are welcome. Please run `terraform fmt -recursive` and 
 ## Copyright
 
 © 2026 Md Sajedul Islam, DevOps Engineer. All rights reserved.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
